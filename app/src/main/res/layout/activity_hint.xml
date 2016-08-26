@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rohit.prime_game.Hint">
+
+    <Button
+        android:text="@string/show_hint"
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:id="@+id/button2"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="@+id/activity_hint"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_hint"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_hint"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_hint"
+        android:layout_marginLeft="16dp"
+        android:onClick="giveHint"
+
+        />
+
+    <TextView
+        android:text="@string/wantHint"
+        android:layout_width="206dp"
+        android:layout_height="73dp"
+        android:id="@+id/hintView"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_hint"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_hint"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@+id/activity_hint"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.52" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cheatButton">Cheat!</string>
+    <string name="app_name">Prime Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="score">Your score is: 0 </string>
+    <string name="nextQuestion">Next Question</string>
+
+    <string name="kya">Is</string>
+    <string name="question"> a prime number?</string>
+
+    <string name="tru">Correct</string>
+    <string name="fals">Incorrect</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="developer">Developed by Rohit Bhardwaj</string>
+    <string name="title_activity_hint">Hint</string>
+    <string name="show_hint">Hint</string>
+    <string name="show_answer">Cheat!</string>
+    <string name="wantHint">Do you really want Hint?</string>
+    <string name="badCheating">Cheating is bad!</string>
+    <string name="goodCheating">Good you have not Cheated!</string>
+    <string name="hintGiven">Use your hint Wisely!</string>
+    <string name="noHintGiven">Good! you have not used Hint!</string>
+    <string name="wantCheat">Do your really want to Cheat?</string>
+    <string name="ansT">Answer is Correct</string>
+    <string name="ansF">Answer is Incorrect</string>
+    <string name="startCheat">Do you want to Cheat?</string>
+    <string name="hint">Use your Brain!</string>
+
+
+</resources>

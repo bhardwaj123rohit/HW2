@@ -8,14 +8,14 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Cheat extends AppCompatActivity {
-    boolean ans;
+    private boolean ans;
     private TextView ansView;
-    boolean cheated=false;
+    private boolean cheated=false;
     public static final String honesty="isHonest";
-    Button letsCheat;
+    private Button letsCheat;
 
 
-    public void setAnswer(boolean ans){
+    private void setAnswer(boolean cheated){
         Intent data = new Intent();
         data.putExtra(honesty,cheated);
         setResult(RESULT_OK,data);

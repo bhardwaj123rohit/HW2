@@ -8,10 +8,10 @@ import android.widget.TextView;
 
 public class Hint extends AppCompatActivity {
 
-    boolean hinted;
+    private boolean hinted;
     public static final String finalHint="finalHint";
 
-    public void setAnswer(boolean ans){
+    private void setAnswer(boolean ans){
         hinted =ans;
         Intent data = new Intent();
         data.putExtra(finalHint,hinted);
@@ -48,7 +48,6 @@ public class Hint extends AppCompatActivity {
 
 
     public  void  giveHint(View v){
-
         TextView tv = (TextView)findViewById(R.id.hintView);
         tv.setText(R.string.hint);
         hinted = true;
